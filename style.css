@@ -1,0 +1,196 @@
+*{
+  font-family: 'Lato', sans-serif; 
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;  
+  margin-left: 250px;
+  margin-right: 250px;
+
+}
+
+.main{
+  display: flex ; 
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: -6vh;
+  
+  
+}
+
+.table{
+   margin-left: 10vh;
+   margin-top: 6vh;
+}
+
+/* .sub-table-button{
+  display: inline-flex;
+} */
+
+button{
+  width: 25vh;
+  margin-top: 5vh;
+  height: 6vh;
+}
+
+p{
+  align-content: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  
+  
+}
+
+img{
+  height: 40vh;
+  width: 40vh;
+}
+
+.sub-table{
+  margin-top: -3vh ;
+  width: 25vh ;
+}
+
+/* .sub-table-button{
+  margin-top: 3vh;
+} */
+
+.mid1{
+  margin-top: 5vh;
+  align-items: center;
+
+}
+
+.percent{
+  width: 20em;
+}
+
+.mid2{
+  margin-top: 5vh;
+}
+
+textarea{
+  height: 2.5vh;
+  width: 12vh;
+  margin-left: 7vh;
+  display: flex;
+  align-items: center;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  padding: 1vh;
+
+}
+.logo{
+  width:100px !important;
+  height: 100px  !important;
+  margin: 1vh !important;
+}
+
+.query{
+ margin-left: 14vh;
+}
+
+.contrast{
+   margin-left: 13vh;
+
+}
+
+.value{
+  height: 4vh !important ;
+}
+
+.features{
+  margin-right: -5vw;
+}
+.sand
+{
+  margin-top: 1vh;
+}
+.box1{
+  background-color: #dadae8;
+}
+.result{
+  height: 6vh;
+  margin-left: 60vh;
+  margin-bottom: 5vh;
+  width: 10vw;
+}
+h5{
+  font-size: 1.7rem;
+  font-family: 'Lato', sans-serif; 
+  width: 50vh;
+  margin-top: 3vh;
+
+}
+
+.classification{
+  width: 30vw !important;
+  height: 10vh !important;
+  padding-bottom: 2vh !important;
+}
+
+.restext{
+  width: 15vw !important;
+  height: 6vh !important;
+  margin-left: 2vw !important;
+
+}
+.graph{
+  margin-left: 80vw !important;
+  margin-top: -8vh !important;
+  margin-bottom: 1vh !important;
+}
+
+h6{
+  font-size: 1.4rem;
+  font-family: 'Lato', sans-serif; 
+  margin-top: 1vh;
+
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 50vw;
+  height: 50vh;
+  margin-left: -150vh;
+
+}
+
+
