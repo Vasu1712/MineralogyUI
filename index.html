@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>UI</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="out">
+      <img src="ARES_LOGO.png" alt="" height="100px" width="100px" class="logo">
+      <div class="box1">
+        <span class="navbar">
+        <button type="button" name="button" class="loadimage">
+          <p>Load Image</p>
+        </button>
+        <button type="button" name="button" class="enhancecontrast">
+          <p>Enhance Contrast</p>
+        </button>
+        <button style = "margin-bottom : 4vh" type="button" name="button" class="features">
+          <p>Features</p>
+        </button>
+        </span>
+        <span class="main">
+          <div class="mid1">
+            <p class="query">Query Image</p>
+          <img width="250 px" height="250 px" src="mineral.jpg" alt="">
+          </div>
+          <div class="mid2">
+            <p class="contrast">Contrast Enhanced</p>
+          <img src="contrast.jpg" alt="">
+          </div>
+        <div class="table">
+            
+          <div class="sub-table">
+            <span class = "sub-table-button">
+              <button class = "percent" type="button" name="button" style="display:flex" class="value">
+                <p class="sand">Sand %</p>
+               <textarea name="sand" id="" cols="10" rows="1"></textarea>
+              </button>
+            </span>
+          </div>
+          <div class="sub-table">
+            <span>
+              <button class = "percent" type="button" name="button" style="display:flex" class="value">
+                <p >Silt %</p>
+               <textarea name="silt" id="" cols="10" rows="1"></textarea>
+                
+              </button>
+            </span>
+          </div>
+          <div class="sub-table">
+            <span>
+              <button class = "percent" type="button" name="button" style="display:flex" class="value">
+                <p>Clay %</p>
+               <textarea name="Clay" id="" cols="10" rows="1"></textarea>
+
+              </button>
+            </span>
+          </div>
+          <div class="sub-table">
+            <span>
+              <button class = "percent" type="button" name="button "style="display:flex" class="value">
+                <p class="sand">Fe (ppm)</p>
+               <textarea name="Fe(ppm)" id="" cols="10" rows="1" ></textarea>
+
+              </button>
+            </span>
+          </div>
+          <div class="sub-table">
+            <span>
+              <button class = "percent" type="button" name="button" style="display:flex" class="value">
+                <p class="sand" style="margin-bottom:2vh">Roundness Factor</p>
+               <textarea name="Roundness Factor" id="" cols="10" rows="1"></textarea>
+
+              </button>
+            </span>
+          </div>
+          <div class="sub-table">
+            <span>
+              <button class = "percent" type="button" name="button" style="display:flex" class="value">
+                <p>Angularity</p>
+               <textarea name="Angularity" id="aaa" cols="10" rows="1"></textarea>
+
+              </button>
+            </span>
+          </div>
+          </div>
+        </span>
+         <div class="result">
+          <button style="display:flex" class="classification">
+          <h5>Classification Result</h5>
+          <textarea name="Angularity" id="aaa" cols="10" rows="1" class="restext"></textarea>
+          </button>
+        </div>
+        <div class="graph">
+        <button onclick="document.getElementById('id01').style.display='block'" >
+          <h6>Graph</h6>
+        
+        </button>
+        <div id="id01" class="modal">
+  
+       <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="graph.png" alt="Avatar" class="avatar">
+    </div>
+
+
+  </form>
+</div>
+
+        </div>
+      </div>
+     
+    </div>
+
+<script>
+
+var modal = document.getElementById('id01');
+
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+  </body>
+</html>
